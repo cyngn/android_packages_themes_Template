@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/neatchee/android/ThemeTemplate/res" >
+            <file
+                name="ic_launcher"
+                path="/home/neatchee/android/ThemeTemplate/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/neatchee/android/ThemeTemplate/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/neatchee/android/ThemeTemplate/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/neatchee/android/ThemeTemplate/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/neatchee/android/ThemeTemplate/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Theme Template
+                </string>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/neatchee/android/ThemeTemplate/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/neatchee/android/ThemeTemplate/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                path="/home/neatchee/android/ThemeTemplate/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/home/neatchee/android/ThemeTemplate/build/res/rs/debug" />
+        <source path="/home/neatchee/android/ThemeTemplate/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/neatchee/android/ThemeTemplate/build-types/debug/res" />
+    </dataSet>
+
+</merger>
