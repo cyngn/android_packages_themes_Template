@@ -16,13 +16,11 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.cyanogenmod.theme.template"
+    package="com.your.package.name"
     android:versionCode="1"
     android:versionName="1" >
 
-    <uses-feature android:required="true" android:name="org.cyanogenmod.theme.template" />
-
-    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
 
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
 
