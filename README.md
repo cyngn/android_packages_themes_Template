@@ -1,5 +1,5 @@
 
-<style="font-size:24px">AndroidManifest.xml
+<p style="font-size:24px">AndroidManifest.xml
 
 There are several entries in addition to the standard Android package information that must be present in your manifest for your theme to behave as expected. All of the following should be inside the main <manifest></manifest> tags.
 
