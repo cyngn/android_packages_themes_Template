@@ -1,5 +1,5 @@
 
-<p style="font-size:24px">AndroidManifest.xml
+## AndroidManifest.xml
 
 There are several entries in addition to the standard Android package information that must be present in your manifest for your theme to behave as expected. All of the following should be inside the main <manifest></manifest> tags.
 
@@ -20,7 +20,7 @@ This entry will place an item in the Installed Apps list on Android, and sets th
 
 These two entries are required for the Theme Engine to recognize your APK as a theme.
 
-<p style="font-size:24px">Assets
+## Assets
 
 Theme assets should be placed into the directory assets/ with the following structure:
 
@@ -88,5 +88,3 @@ assets/<br>
 | images/ | This directory should contain three images, to be displayed in the Theme Chooser: <br><br>All 3 images must be 600px wide by 1080px tall.<br><br><i>lockscreen_preview.jpg</i> must be a cropped version of your lockscreen wallpaper<br><i>wallpaper_preview.jpg</i> must be a cropped version of your home screen wallpaper<br><i>style_preview.jpg</i> must be a screenshot displaying an actual example of your theme's overlay style in-use |
 | icons/ | This directory uses the de-facto standard format for icon theming that's been in use for some time among Launchers.  Icons are placed in DPI-named directories and are then referenced in xml/appfilters.xml.<br><br>Don’t forget to put everything inside icons/res/<br><br>To learn more about how to set up the file structure for icons and how to theme icons in Android, see the “ICONS” section of this thread on XDA: http://forum.xda-developers.com/showthread.php?t=1649891 |
 | overlays/ | Contains drawables and values for each package or system component to be themed. Drawables and components within XMLs are a 1-to-1 replacement for elements defined in installed packages.<br><br>Additionally contains a <i>common/</i> directory which is used to define assets that can be reused across multiple applications. To reference an item from <i>common/</i>, preface an element's <i>src=</i> with <i>@*common:</i> |
-
-re documentation to come in the near future!
