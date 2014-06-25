@@ -17,9 +17,21 @@
 
 <resources>
 
-    <style name="WidgetTitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <style name="WidgetTitle" parent="@*common:style/WidgetTitle">
         <item name="android:textColor">#ffffff</item>
         <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#999999</item>
     </style>
 
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="notification_number_text_color">#ff000000</drawable>
+    <drawable name="ticker_background_color">#ff1d1d1d</drawable>
+    <drawable name="system_bar_background">@color/system_bar_background_opaque</drawable>
+    <drawable name="status_bar_recents_app_thumbnail_background">#88000000</drawable>
+    <drawable name="status_bar_notification_row_background_color">#ff090909</drawable>
+    <drawable name="recents_callout_line">#99ffffff</drawable>
+    <drawable name="notification_item_background_legacy_color">#ffaaaaaa</drawable>
+    <drawable name="heads_up_notification_bg_pressed">#ff33B5E5</drawable>
+    <drawable name="notification_header_bg">#FF000000</drawable>
+</resources>

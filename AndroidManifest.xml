@@ -16,13 +16,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.your.package.name"
-    android:versionCode="1"
-    android:versionName="1" >
+    package="com.your.theme.template">
 
     <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
-
-    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
 
     <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Theme Template">
     </application>
