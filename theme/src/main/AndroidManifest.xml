@@ -22,10 +22,11 @@
 
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
 
-    <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Theme Template">
-    </application>
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
 
-    <meta-data android:name="org.cyanogenmod.theme.name" android:value="Theme Template"/>
-    <meta-data android:name="org.cyanogenmod.theme.author" android:value="CyanogenMod" />
+    <application android:hasCode="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/theme_name"/>
 
 </manifest>

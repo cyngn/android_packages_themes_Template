@@ -17,6 +17,7 @@
 
 <resources>
 
-    <string name="app_name">Theme Template</string>
+    <string name="theme_name">Theme Template</string>
+    <string name="theme_author">CyanogenMod</string>
 
 </resources>
