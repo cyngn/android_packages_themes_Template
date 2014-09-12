@@ -1,0 +1,163 @@
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+-->
+
+<resources>
+
+    <!-- Secondary text color in the Phone app -->
+    <color name="dialtacts_primary_text_color">#000000</color>
+    <color name="dialtacts_secondary_text_color">#888888</color>
+
+    <!-- Background color of dialpad -->
+    <color name="background_dialpad">#ffffff</color>
+    <!-- Pressed color of dialpad buttons -->
+    <color name="background_dialpad_pressed">#ececec</color>
+    <!-- Primary color of dialpad text, including the call button -->
+    <color name="dialpad_primary_text_color">#3B77E7</color>
+    <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
+    <color name="dialpad_secondary_text_color">#8b8b8b</color>
+    <!-- Color of dialpad digits -->
+    <color name="dialpad_digits_text_color">#000000</color>
+    <!-- Color for dialpad separator lines -->
+    <color name="dialpad_separator_line_color">#dadada</color>
+
+    <!-- Color of the text describing an unconsumed missed call. -->
+    <color name="call_log_missed_call_highlight_color">#FF0000</color>
+
+    <!-- Color of the text describing an unconsumed voicemail. -->
+    <color name="call_log_voicemail_highlight_color">#33b5e5</color>
+
+    <!--
+         Colour of voicemail progress bar to the right of position indicator.
+         Same as the background color of the dialer
+    -->
+    <color name="voicemail_playback_seek_bar_yet_to_play">#cecece</color>
+
+    <!-- Colour of voicemail progress bar to the left of position indicator. -->
+    <color name="voicemail_playback_seek_bar_already_played">#39c9ff</color>
+
+    <!-- Standard color for selected items. -->
+    <color name="item_selected">#660099cc</color>
+
+    <!-- Background color of new dialer activity -->
+    <color name="background_dialer_light">#eeeeee</color>
+
+    <!-- Background color of dialer list items (contacts, call log entries) -->
+    <color name="background_dialer_list_items">#eeeeee</color>
+
+    <!-- Background color where keypad digits are displayed -->
+    <color name="background_digits_dialpad">#f2ffffff</color>
+
+    <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
+    <color name="dialpad_call_button_color">#404040</color>
+
+    <!-- Background color of action bars.  Ensure this stays in sync with packages/Telephony
+         actionbar_background_color. -->
+    <color name="actionbar_background_color">#3B77E7</color>
+
+    <!-- Underline color of action bars.  Ensure this stays in sync with packages/Telephony
+         actionbar_underline. -->
+    <color name="actionbar_underline">#3265C1</color>
+
+    <!-- Color of the 1dp divider that separates favorites -->
+    <color name="favorite_contacts_separator_color">#d0d0d0</color>
+
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">#ffffff</color>
+    <!-- Text color of the search box text as entered by user  -->
+    <color name="searchbox_text_color">#000000</color>
+    <!-- Text color of the search box hint text  -->
+    <color name="searchbox_hint_text_color">#d3d3d3</color>
+
+    <!-- Color of the contact name in favorite tiles -->
+    <color name="contact_tile_name_color">#ffffff</color>
+
+    <!-- Undo dialogue color -->
+    <color name="undo_dialogue_text_color">#4d4d4d</color>
+
+    <!-- Text color for no favorites message -->
+    <color name="nofavorite_text_color">#777777</color>
+
+    <!-- Text color for the "Remove" text in its regular state -->
+    <color name="remove_text_color">#555555</color>
+
+    <!-- Text color for the "Remove" text when a contact is dragged on top of the remove view -->
+    <color name="remove_highlighted_text_color">#FF3F3B</color>
+
+    <!-- Text color for the "speed dial" label in the favorites menu. -->
+    <color name="speed_dial_text_color">#555555</color>
+
+    <!-- Background color for the "All Contacts" button in the favorites menu. -->
+    <color name="all_contacts_button_color">#999999</color>
+
+    <!-- Background color for the "All Contacts" button in the favorites menu when pressed. -->
+    <color name="all_contacts_button_pressed_color">#808080</color>
+
+    <!-- Background color for the favorites menu. -->
+    <color name="favorites_menu_background_color">#eeeeee</color>
+
+    <!-- Text color for the "All Contacts" button above the favorite callers -->
+    <color name="all_contacts_button_text_color">#ffffff</color>
+
+    <!-- Background gradient start color for tabs in an unpressed state. -->
+    <color name="tab_background_gradient_start_color">#d3d3d3</color>
+
+    <!-- Background gradient end color for tabs in an unpressed state. -->
+    <color name="tab_background_gradient_end_color">#ebebeb</color>
+
+    <!-- Background gradient start color for tabs in a pressed state. -->
+    <color name="tab_background_gradient_start_pressed_color">#c4c4c4</color>
+
+    <!-- Background gradient end color for tabs in a pressed state. -->
+    <color name="tab_background_gradient_end_pressed_color">#dedede</color>
+
+    <!-- Color of the underline for a tab which is selected. -->
+    <color name="tab_underline_selected_color">#3265c1</color>
+
+    <!-- Color of the underline for a tab which is not selected. -->
+    <color name="tab_underline_color">#c8c8c8</color>
+
+    <!-- Color of the selection indicator for a tab which is selected. -->
+    <color name="tab_selected_color">#3b77e7</color>
+
+    <!-- Color of tab text. -->
+    <color name="tab_text_color">#505050</color>
+
+    <!-- Color of the bottom border below the contacts grid on the main dialer screen. -->
+    <color name="contacts_grid_bottom_border_color">#16000000</color>
+
+    <!-- Color of action bar text. Ensure this stays in sync with packages/Telephony
+         phone_settings_actionbar_text_color-->
+    <color name="actionbar_text_color">#FFFFFF</color>
+
+    <!-- Colors for incoming and outgoing calls in the call statistics -->
+    <color name="call_stats_incoming">#33b5e5</color>
+    <color name="call_stats_outgoing">#99cc00</color>
+    <color name="call_stats_missed">#eb1313</color>
+    <color name="call_stats_bar_background">#88888888</color>
+
+    <!-- New Colors for Theme Chooser to be compatible -->
+    <color name="call_detail_photo_bg">#7f000000</color>
+    <color name="call_log_divider">#55ffffff</color>
+    <color name="call_log_primary_text_color">#000000</color>
+    <color name="call_log_primary_background_color">#000000</color>
+    <color name="call_log_secondary_text_color">#888888</color>
+    <color name="call_log_secondary_background_color">#333333</color>
+    <color name="call_log_header_color">#33b5e5</color>
+    <color name="call_log_voicemail_status_background_color">#262626</color>
+    <color name="call_log_voicemail_status_text_color">#888888</color>
+    <color name="call_log_voicemail_status_action_text_color">#33b5e5</color>
+    <color name="dialtacts_frame_color">#33999999</color>
+</resources>

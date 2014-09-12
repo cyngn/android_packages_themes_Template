@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <color name="solid_black">#ff000000</color>
+    <color name="photo_crop_dim_color">#cc000000</color>
+    <color name="photo_crop_highlight_color">#ffffffff</color>
+    <color name="gray_text_color">#ff777777</color>
+    <color name="dark_gray_text_color">#ff58585b</color>
+    <color name="light_gray">#ffcccccc</color>
+    <color name="mail_app_blue">@color/holo_blue_light</color>
+    <color name="subject_text_color_unread">@color/dark_gray_text_color</color>
+    <color name="snippet_text_color_unread">#ff777777</color>
+    <color name="senders_text_color_unread">@color/dark_gray_text_color</color>
+    <color name="subject_text_color_read">@color/subject_text_color_unread</color>
+    <color name="snippet_text_color_read">@color/snippet_text_color_unread</color>
+    <color name="senders_text_color_read">@color/senders_text_color_unread</color>
+    <color name="date_text_color">@color/dark_gray_text_color</color>
+    <color name="message_info_text_color">@color/gray_text_color</color>
+    <color name="ap_background_color">#fff1f1f2</color>
+    <color name="ap_overflow_badge_color">#cceeeeee</color>
+    <color name="ap_overflow_text_color">#ff4f4c4c</color>
+    <color name="drafts">#ff990000</color>
+    <color name="attachment_bg_color">#ffdddddd</color>
+    <color name="swiped_bg_color">#ff999999</color>
+    <color name="holo_light_background_color">#ffe8e8e8</color>
+    <color name="default_folder_background_color">#ffdddddd</color>
+    <color name="default_folder_foreground_color">@color/gray_text_color</color>
+    <color name="account_item_selected_text_color">@color/mail_app_blue</color>
+    <color name="folder_list_heading_text_color">@color/dark_gray_text_color</color>
+    <color name="list_background_color">#ffeeeeee</color>
+    <color name="compose_label_text">#ffaaaaaa</color>
+    <color name="quoted_text_color">@color/gray_text_color</color>
+    <color name="compose_background_color">@color/white</color>
+    <color name="quotedTextColor">@color/gray_text_color</color>
+    <color name="conv_header_add_label_text">@color/black</color>
+    <color name="conv_header_add_label_background">#ffeeeeee</color>
+    <color name="conversation_view_border_color">#ffeeeeee</color>
+    <color name="conv_header_text_light">#ffa6a8ab</color>
+    <color name="conv_header_text_dark">@color/dark_gray_text_color</color>
+    <color name="conv_header_text_link_blue">#ff35b4e3</color>
+    <color name="folder_disabled_drop_target_text_color">#ff999999</color>
+    <color name="attachment_tile_shadow_box_color">#7f000000</color>
+    <color name="attachment_tile_subtitle_color">#ff999999</color>
+    <color name="attachment_image_background_color">#ffe5e5e5</color>
+    <color name="hierarchical_folder_parent_color">@color/gray_text_color</color>
+    <color name="high_spam_color">#ffcc0000</color>
+    <color name="notification_template_icon_low_bg">#0cffffff</color>
+    <color name="letter_tile_default_color">#ffd66161</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+    <color name="tile_divider_color">@*common:color/title_divider_color</color>
+    <color name="teaser_main_text">@color/dark_gray_text_color</color>
+    <color name="swipe_to_refresh_text_color">#ff0099cc</color>
+    <color name="message_header_background_color">@color/white</color>
+    <color name="message_border_gradient_color">#ffebebeb</color>
+    <color name="folder_teaser_icon_background">#ffeeeeee</color>
+    <color name="folder_teaser_senders_text">#ff58585b</color>
+    <color name="folder_teaser_count_text">@color/black</color>
+    <color name="black">#ff000000</color>
+    <color name="compose_attachment_tile_subtitle_text_color">#ffffffff</color>
+    <color name="compose_attachment_tile_title_text_color">#ffffffff</color>
+    <color name="conversation_view_header_background_color">#ffffffff</color>
+    <color name="darker_gray">#ffaaaaaa</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="search_results_view_text_color">#ff777777</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="widget_loading_color">#ff000000</color>
+    <color name="widget_senders_text_color">#ff58585b</color>
+    <color name="widget_subtitle_color">@*common:color/widget_subtitle_color</color>
+    <color name="widget_title_color">@*common:color/widget_title_color</color>
+    <color name="widget_unread_color">#ff777777</color>
+    <color name="account_setup_headline_color">#ff5e802b</color>
+    <color name="account_setup_info_text_color">#ff000000</color>
+    <color name="account_setup_label_text_color">#ff666666</color>
+    <color name="account_setup_divider_color">#ffcccccc</color>
+    <color name="text_secondary_color">#ff666666</color>
+    <color name="combined_view_account_color_1">#ff71aea7</color>
+    <color name="combined_view_account_color_2">#ff621919</color>
+    <color name="combined_view_account_color_3">#ff18462f</color>
+    <color name="combined_view_account_color_4">#ffbf8e52</color>
+    <color name="combined_view_account_color_5">#ff001f79</color>
+    <color name="combined_view_account_color_6">#ffa8afc2</color>
+    <color name="combined_view_account_color_7">#ff6b64c4</color>
+    <color name="combined_view_account_color_8">#ff738359</color>
+    <color name="combined_view_account_color_9">#ff9d50a4</color>
+    <color name="button_text_color">#ff777777</color>
+    <color name="button_text_disabled_color">#ffcccccc</color>
+
+</resources>

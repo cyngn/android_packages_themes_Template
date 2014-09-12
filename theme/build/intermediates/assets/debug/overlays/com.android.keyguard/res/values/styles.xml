@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Button.NumPadKey" parent="@android:style/Widget.Button">
+        <item name="android:textSize">34.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:paddingLeft">@dimen/kg_num_pad_key_padding_left</item>
+        <item name="android:paddingTop">@dimen/kg_num_pad_key_padding_top</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">@dimen/kg_num_pad_key_padding_bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.NumPadKey" parent="@android:style/TextAppearance">
+        <item name="android:textSize">34.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.NumPadKey.Klondike" parent="@style/TextAppearance.NumPadKey">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#80ffffff</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>
