@@ -171,6 +171,7 @@ Themes work by comparing the files in the system to the files in the theme. If a
 
 Naming for icon packs are slightly different. The app icons can be named anything. The XML file contained with them, however, must reference two things correctly to work. First, the name of each icon you create. Second, the target app’s package name (and more specifically, the app’s launcher activity if your custom icon shows up in places it shouldn’t).
 
+<img src="./README_graphics/name_with_care.png">
 
 ### Special: Creating a Boot Animation ###
 
