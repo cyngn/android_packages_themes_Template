@@ -3,13 +3,13 @@ Welcome to the Cyanogen Theme Template! This guide will explain how to create a 
 ## Things You’ll Need ##
 
 *  <b>Android Studio</b><br>
-Android Studio is a Google-distributed program that will allow us to organize and build the theme itself. Set it up on your computer by following these instructions.
+Android Studio is a Google-distributed program that will allow us to organize and build the theme itself. Set it up on your computer by <a href="https://developer.android.com/sdk/installing/studio.html">following these instructions</a>.
 
 *  <b>Image Editing Software of your choice (Illustrator, Photoshop, GIMP, etc.)</b><br>
 You’ll use this to create your theme assets. Any software akin to those above will work.
 
 *  <b>Theme Template Files</b><br>
-The template includes the project we’ll use to create a theme in Android Studio and a set of example assets in each folder you can use as a base for your theme. We suggest that you grab the template files before beginning. Download the template zip file here. 
+The template includes the project we’ll use to create a theme in Android Studio and a set of example assets in each folder you can use as a base for your theme. We suggest that you grab the template files before beginning. <a href="https://themes.cyngn.com/assets/docs/theme_templates.zip">Download the template zip file here</a>. 
 
 
 ## Exploring the Theme Template ##
@@ -169,7 +169,8 @@ Most assets live as an object in their space; a 32x32dp icon may be a 28x28dp gl
 
 Themes work by comparing the files in the system to the files in the theme. If an asset’s filename doesn’t match the system asset you intended it to replace, it won’t apply. It is therefore essential to check and recheck your assets’ filenames against the default. Use the template’s resource folder assets as a guide.
 
-Naming for icon packs are slightly different. The app icons can be named anything. The XML file contained with them, however, must reference two things correctly to work. First, the name of each icon you create. Second, the target app’s package name (and more specifically, the app’s launcher activity if your custom icon shows up in places it shouldn’t).
+Naming for icon packs are slightly different. The app icons can be named anything. The XML file contained with them, however, must reference two things correctly to work. First, the name of each icon you create. Second, the target app’s package name (and more specifically, the app’s launcher activity if your custom icon shows up in places it shouldn’t). Reference the image below:
+
 
 
 ### Special: Creating a Boot Animation ###
@@ -231,6 +232,7 @@ Android Studio requires Java 7 to run so you will need to make sure you have jav
 #### Step 2: Import the theme template ####
 
 Now that you have Android Studio installed and the theme template downloaded and extracted, you will need to import this project into Android Studio. If this is your first time running Android Studio, you should be presented with the <b><i>Welcome to Android Studio</i></b> welcome screen.
+
 
 
 If Android Studio opens up to an existing project, simply close the project from <b>File -> Close Project</b>.
