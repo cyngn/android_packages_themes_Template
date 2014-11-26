@@ -3,14 +3,13 @@ Welcome to the Cyanogen Theme Template! This guide will explain how to create a 
 ## Things You’ll Need ##
 
 *  <b>Android Studio</b><br>
-Android Studio is a Google-distributed program that will allow us to organize and build the theme itself. Set it up on your computer by following these instructions.
+Android Studio is a Google-distributed program that will allow us to organize and build the theme itself. Set it up on your computer by <a href="http://developer.android.com/sdk/installing/studio.html">following these instructions</a>.
 
 *  <b>Image Editing Software of your choice (Illustrator, Photoshop, GIMP, etc.)</b><br>
 You’ll use this to create your theme assets. Any software akin to those above will work.
 
 *  <b>Theme Template Files</b><br>
-The template includes the project we’ll use to create a theme in Android Studio and a set of example assets in each folder you can use as a base for your theme. We suggest that you grab the template files before beginning. Download the template zip file here. 
-
+The template includes the project we’ll use to create a theme in Android Studio and a set of example assets in each folder you can use as a base for your theme. We suggest that you grab the template files before beginning. <a href="https://github.com/cyngn/android_packages_themes_Template">Download the template sample files here</a>. 
 
 ## Exploring the Theme Template ##
 
