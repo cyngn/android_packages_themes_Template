@@ -171,7 +171,7 @@ Themes work by comparing the files in the system to the files in the theme. If a
 
 Naming for icon packs are slightly different. The app icons can be named anything. The XML file contained with them, however, must reference two things correctly to work. First, the name of each icon you create. Second, the target app’s package name (and more specifically, the app’s launcher activity if your custom icon shows up in places it shouldn’t).
 
-<img src="./README_graphics/name_with_care.png">
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/name_with_care.png">
 
 ### Special: Creating a Boot Animation ###
 
@@ -200,6 +200,9 @@ bootanimation/<br>
 Each “partX” folder contains a section of the total animation sequence. For instance, the template animation has two parts: the first part (in /part0/) is the introduction and the second part (in /part1/) is the rest of the animation which loops until the device is fully booted.
 
 The “desc.txt” file tells the device how to play the animation. Each value is separated by a single space. Below is the text file’s breakdown:
+
+
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/text_file_breakdown.png">
 
 1080 1080 48 <-- Frame dimensions and sequence frame rate<br>
 p 1 0 part0  <-- Line marker<br>
@@ -233,14 +236,17 @@ Android Studio requires Java 7 to run so you will need to make sure you have jav
 
 Now that you have Android Studio installed and the theme template downloaded and extracted, you will need to import this project into Android Studio. If this is your first time running Android Studio, you should be presented with the <b><i>Welcome to Android Studio</i></b> welcome screen.
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/welcome_android_studio.png">
 
 If Android Studio opens up to an existing project, simply close the project from <b>File -> Close Project</b>.
 
 From the <i>Welcome to Android Studio</i> screen, select <b><i>Import Project</i></b>. Navigate to where you extracted the theme template and once that folder is selected choose <b><i>OK</i></b>.
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/import_project.png">
 
 Once the project is imported you may receive an error stating that it <b><i>Failed to sync Gradle project</i></b>. If you get this message, simply click on <b><i>Fix plug-in version and re-import project</i></b>.
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/fix_plugin.png">
 
 #### Step 3: Create your theme ####
 
@@ -248,10 +254,13 @@ Now that your project is ready to go, we’ll need to add theme details and impo
 
 Check out the project tree on the side of the window:
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/side_project_tree.png">
+
 /theme/src/main/ is the heart of the project and where we’ll be focusing our time. /assets/ is where your assets will be living. /res/ is where your theme’s app icon will go, and AndroidManifest.xml is where you will define your theme’s identity. /assets/ and /res/ are structured exactly like the example resource section, making importing simple.
 
 Double-click on AndroidManifest and you’ll see a colored text file appear in the content area of the window.
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/manifest.png">
 
 The package name is a unique identifier for your theme. Pick a package name and set it here, making sure to follow standard conventions [shown here](https://www.google.com/url?q=https%3A%2F%2Fdocs.oracle.com%2Fjavase%2Ftutorial%2Fjava%2Fpackage%2Fnamingpkgs.html&sa=D&sntz=1&usg=AFQjCNFWB_NXsKYz_21rdPtVcMnRMAoQMA). A simple convention could be to use <b><i>your_name.theme_name</i></b> (underscores not necessary) as the package name.
 
@@ -265,6 +274,7 @@ Android Studio makes it easy to quickly build and test your theme on your device
 
 Now that your device is plugged in and ready to go, simply press the green play button located in the toolbar.
 
+<img src="http://cdn.cyngn.com/g/themes_template_instructions/play_button.png">
 
 At this point you should be presented with a dialog box to configure how to run the APK produced by Android Studio. Make sure that you select <b><i>Do not launch Activity</i></b> under the <b>Activity</b> group and <b><i>Show chooser dialog</i></b> for <b>Target Device</b>. Finally click <b><i>Run</i></b> and then choose your device from the <b>Choose Device</b> dialog.
 
