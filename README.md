@@ -139,11 +139,6 @@ The “desc.txt” file tells the device how to play the animation. Each value i
 
 ![Text File Breakdown](http://cdn.cyngn.com/g/themes_template_instructions/text_file_breakdown.png)
 
-1080 1080 48 <-- Frame dimensions and sequence frame rate<br>
-p 1 0 part0  <-- Line marker<br>
-p 0 0 part1  <-- Line marker<br>
-
-
 * Frame dimensions: These designate the width and height of the frames in the animation.
 * Sequence frame rate: The frames-per-second (FPS) of the animation.
 * Line markers: They tell the device how many parts there are in the animation. “p” is the default marker to use but you can also use a “c” which tells the device to finish animation before finishing boot (normally the animation cuts to the lockscreen when the device is ready). This gets you a nice complete animation on a looped part or if you want a part to play specifically at the end.
