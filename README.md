@@ -185,15 +185,7 @@ Boot animations are created with two pieces, the sequence itself and a text file
 
 If you open the template resource folder and navigate to /bootanimation/ you will see a zip file containing a boot animation sample. Inside that is the follow structure:
 
-bootanimation/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──part0/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──10001.png<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──10002.png<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──part1/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──10081.png<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──10082.png<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──desc.txt<br>
-
+![boot animation tree](http://cdn.cyngn.com/g/themes_template_instructions/bootanim_tree.png)
 
 Each “partX” folder contains a section of the total animation sequence. For instance, the template animation has two parts: the first part (in /part0/) is the introduction and the second part (in /part1/) is the rest of the animation which loops until the device is fully booted.
 
