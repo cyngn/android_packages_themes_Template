@@ -215,7 +215,7 @@ At this point you should be presented with a dialog box to configure how to run 
 
 #### Step 5: Signing your theme APK for release ####
 
-Once you are ready to release your theme for the public to enjoy, you will need to generate a signed APK which can then be installed on other devices. Fortunately Android Studio makes this an easy task. Follow this guide on generating a signed APK from Android Studio.
+Once you are ready to release your theme for the public to enjoy, you will need to generate a signed APK which can then be installed on other devices. Fortunately Android Studio makes this an easy task. Follow [this guide](http://developer.android.com/tools/publishing/app-signing.html#studio) on generating a signed APK from Android Studio.
 
 ### Additional Recommendations ###
 
