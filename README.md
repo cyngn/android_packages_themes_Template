@@ -193,11 +193,15 @@ Check out the project tree on the side of the window:
 
 /theme/src/main/ is the heart of the project and where we’ll be focusing our time. /assets/ is where your assets will be living. /res/ is where your theme’s app icon will go, and AndroidManifest.xml is where you will define your theme’s identity. /assets/ and /res/ are structured exactly like the example resource section, making importing simple.
 
-Double-click on AndroidManifest and you’ll see a colored text file appear in the content area of the window.
+Double-click on the build.gradle in the <b>theme</b> directory and you’ll see a colored text file appear in the content area of the window.
+
+![build.gradle](http://cdn.cyngn.com/g/themes_template_instructions/theme_build_gradle.png)
+
+The applicationId is a unique identifier for your theme, also known as the <b><i>package name</i></b>. Pick a package name and set it here, making sure to follow standard conventions [shown here](https://www.google.com/url?q=https%3A%2F%2Fdocs.oracle.com%2Fjavase%2Ftutorial%2Fjava%2Fpackage%2Fnamingpkgs.html&sa=D&sntz=1&usg=AFQjCNFWB_NXsKYz_21rdPtVcMnRMAoQMA). A simple convention could be to use <b><i>your_name.theme_name</i></b> (underscores not necessary) as the package name.
+
+You will also want to change the package name in the AndroidManifest.xml.  Double-click on AndroidManifest and you’ll see a colored text file appear in the content area of the window.
 
 ![Manifest](http://cdn.cyngn.com/g/themes_template_instructions/manifest.png)
-
-The package name is a unique identifier for your theme. Pick a package name and set it here, making sure to follow standard conventions [shown here](https://www.google.com/url?q=https%3A%2F%2Fdocs.oracle.com%2Fjavase%2Ftutorial%2Fjava%2Fpackage%2Fnamingpkgs.html&sa=D&sntz=1&usg=AFQjCNFWB_NXsKYz_21rdPtVcMnRMAoQMA). A simple convention could be to use <b><i>your_name.theme_name</i></b> (underscores not necessary) as the package name.
 
 Moving to /res/values/, open the strings.xml file. Inside you’ll see two bits of text between chevrons. The theme_name string is where you set your theme’s name. Theme_author is your name or DBA. Be sure to check for spelling and grammar as these will be used by the system to title your theme.
 
