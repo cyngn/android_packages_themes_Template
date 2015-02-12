@@ -72,8 +72,9 @@ Density buckets let devices of different screen size and resolution correctly di
 * drawable-hdpi (~480p screens
 * drawable-xhdpi (~720p screens)
 * drawable-xxhdpi (~1080p screens)
+* drawable-xxxhdpi (~1440p screens)
 
-contain the same set of assets but in different sizes. More information on density buckets, DP, and PPI is available [in this designer-focused guide](http://www.google.com/url?q=http%3A%2F%2Fsebastien-gabriel.com%2Fdesigners-guide-to-dpi%2Fhome%23android&sa=D&sntz=1&usg=AFQjCNGZV6e1HsPw-Cs1F1O15-dajenAzQ). It’s important to include at least the bottom three in this list to properly support a wide variety of devices.
+contain the same set of assets but in different sizes. More information on density buckets, DP, and PPI is available [in this designer-focused guide](http://www.google.com/url?q=http%3A%2F%2Fsebastien-gabriel.com%2Fdesigners-guide-to-dpi%2Fhome%23android&sa=D&sntz=1&usg=AFQjCNGZV6e1HsPw-Cs1F1O15-dajenAzQ). It’s important to include at least the middle three in this list to properly support a wide variety of devices.
 
 #### Standard Assets ####
 
