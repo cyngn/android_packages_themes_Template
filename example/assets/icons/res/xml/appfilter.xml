@@ -16,7 +16,7 @@
 
 <resources>
 
-    <!-- Set deafult scale factor for the icons -->
+    <!-- Set default scale factor for the icons -->
     <scale factor="1.0" />
     <iconback img1="iconback" />
     <iconmask img1="iconmask" />
