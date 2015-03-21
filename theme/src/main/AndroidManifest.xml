@@ -15,18 +15,19 @@
  * limitations under the License.
 -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.your.theme.template">
 
     <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
 
-    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
-
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
 
-    <application android:hasCode="false"
+    <application
+        android:hasCode="false"
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/theme_name"/>
+        android:label="@string/theme_name" />
 
 </manifest>
