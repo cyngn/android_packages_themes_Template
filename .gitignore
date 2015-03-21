@@ -1,6 +1,34 @@
-.gradle
-/local.properties
-/.idea
-.DS_Store
-/build
+# Eclipse
+.classpath
+.project
+.settings
+eclipsebin
+
+# Ant
+bin
+gen
+build
+out
+lib
+
+# Maven
+target
+pom.xml.*
+release.properties
+coverage.ec
+
+# IntelliJ
+.idea
 *.iml
+*.iws
+*.ipr
+classes
+gen-external-apklibs
+
+gradle
+gradlew
+gradlew.*
+local.properties
+tmp
+.DS_Store
+.gitreview
