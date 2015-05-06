@@ -220,5 +220,3 @@ Once you are ready to release your theme for the public to enjoy, you will need 
 ### Additional Recommendations ###
 
 Once you have your theme installed and applied, it’s important to TEST IT. Explore your phone and make sure everything you created is working as intended. If you have access to multiple device screen resolutions, we recommend trying it on them as well to confirm each bucket of assets appear correctly.
-
-[Theme Debugger](https://www.google.com/url?q=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.steel89ita.themedebugger) is a great tool to quickly see many of the framework assets.
