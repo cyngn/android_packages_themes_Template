@@ -6,8 +6,8 @@
         <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
         <font weight="300" style="normal">Roboto-Light.ttf</font>
         <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
-        <font weight="400" style="normal">Roboto-Regular.ttf</font>
-        <font weight="400" style="italic">Roboto-Italic.ttf</font>
+        <font weight="400" style="normal">Planetnv2.ttf</font>
+        <font weight="400" style="italic">planetnital.ttf</font>
         <font weight="500" style="normal">Roboto-Medium.ttf</font>
         <font weight="500" style="italic">Roboto-MediumItalic.ttf</font>
         <font weight="900" style="normal">Roboto-Black.ttf</font>
@@ -29,7 +29,7 @@
     <family name="sans-serif-condensed">
         <font weight="300" style="normal">RobotoCondensed-Light.ttf</font>
         <font weight="300" style="italic">RobotoCondensed-LightItalic.ttf</font>
-        <font weight="400" style="normal">RobotoCondensed-Regular.ttf</font>
+        <font weight="400" style="normal">planetncond.ttf</font>
         <font weight="400" style="italic">RobotoCondensed-Italic.ttf</font>
         <font weight="700" style="normal">RobotoCondensed-Bold.ttf</font>
         <font weight="700" style="italic">RobotoCondensed-BoldItalic.ttf</font>

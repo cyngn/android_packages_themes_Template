@@ -17,8 +17,8 @@
 
 <resources>
 
-    <string name="theme_name">Theme Template</string>
-    <string name="theme_author">CyanogenMod</string>
-    <string name="theme_email">support@themetemplate.com</string>
+    <string name="theme_name">PlayWithAndroid THEME</string>
+    <string name="theme_author">PlayWithAndroid</string>
+    <string name="theme_email">playw.android@gmail.com</string>
 
 </resources>
